@@ -62,11 +62,11 @@
     top: calc(50% - 12px);
 }
 .product-customers-pr {
-    color: #2f281e;
-    text-align: center;
-    font: 400 14px/28px 'Poppins', sans-serif;
-    position: absolute;
-    left: 650px;
+    color: #173a56;
+    text-align: start;
+    font: 800 18px/27px 'Poppins', sans-serif;
+    position: sticky;
+    left: 570px;
     top: calc(50% - 15px);
     width: 350px;
 }
@@ -88,3 +88,33 @@
     left: 143.92px;
     top: 22px;
 }
+.the-design-thinking, .the-design-thinking * {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    bottom: ;
+    left: ;
+    }
+.the-design-thinking {
+    color: #2f281e;
+    text-align: left;
+    font: 700 44px/54px 'Poppins', sans-serif;
+    position: relative;
+    width: 518px;
+    }
+        .happy{
+            position: sticky;
+            top: 10px;
+            right: 10px;
+            bottom: 0;
+            left: 675px;
+        }
+        .Oval {
+            position: sticky;
+            top: 10px;
+            right: 10px;
+            bottom: 0;
+            left: 753px;
+        }
+    
