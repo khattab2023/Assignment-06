@@ -98,6 +98,7 @@
     left: 143.92px;
     top: 22px;
 }
+
 .happy {
     position: sticky;
     top: 10px;
@@ -105,6 +106,7 @@
     bottom: 0;
     left: 675px;
 }
+
 .Oval {
     position: sticky;
     top: 10px;
@@ -112,6 +114,7 @@
     bottom: 0;
     left: 753px;
 }
+
 .the-design-thinking,
 .the-design-thinking * {
     box-sizing: border-box;
@@ -126,11 +129,13 @@
     left: 155px;
     width: 518px;
 }
-.tools-tutorials-de, .tools-tutorials-de * {
+
+.tools-tutorials-de,
+.tools-tutorials-de * {
     box-sizing: border-box;
-    }
-    .tools-tutorials-de {
-        color: #544837;
+}
+.tools-tutorials-de {
+    color: #544837;
     text-align: left;
     padding-left: 145px;
     font: 400 18px/28px 'Poppins', sans-serif;
@@ -139,5 +144,60 @@
     left: 6px;
     width: 600px;
     height: 95px;
+}
+.triangle-copy-6 {
+    border-radius: 0px;
+    position: relative;
+    left: 370px;
+    transform: translate(-17px, 0.84px);
+}
+.watch-the-video,
+.watch-the-video * {
+    box-sizing: border-box;
+}
+.watch-the-video {
+    color: #ff9900;
+    left: 505px;
+    text-align: left;
+    font: 600 16px 'Poppins', sans-serif;
+    text-decoration: underline;
+    position: relative;
+    bottom: 27px;
+    left: 377px;
+}
+.button4 {
+    width: 175px;
+    height: 53px;
+    position: relative;
+    bottom: 62px;
+    left: 151px;
+    overflow: hidden;
+}
+.watch-the-video, .watch-the-video * {
+    box-sizing: border-box;
+    }
+    .watch-the-video {
+    color: #ff9900;
+    text-align: left;
+    font: 600 16px 'Poppins', sans-serif;
+    text-decoration: underline;
+    position: relative;
     }
     
+.rectangle4 {
+    background: #ff9900;
+    border-radius: 4px;
+    width: 175px;
+    height: 53px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.get-started {
+    color: #ffffff;
+    text-align: left;
+    font: 700 16px 'Poppins', sans-serif;
+    position: absolute;
+    left: 41px;
+    top: calc(50% - 11.5px);
+}
