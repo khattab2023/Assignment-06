@@ -4,7 +4,7 @@
 }
 
 ._01-navigation {
-    width: 1400px;
+    width: 100%;
     height: 78px;
     position: relative;
     overflow: hidden;
@@ -14,9 +14,8 @@
     width: 102px;
     height: 46px;
     position: absolute;
-    left: 1029px;
+    left: 1384px;
     top: 15px;
-    overflow: hidden;
 }
 
 .bg {
@@ -45,8 +44,9 @@
     width: 110px;
     height: 46px;
     position: absolute;
-    left: 1145px;
+    left: 1500px;
     top: 15px;
+    padding-right: 145px;
     overflow: hidden;
 }
 
@@ -58,6 +58,7 @@
     position: absolute;
     left: 0px;
     top: 0px;
+
 }
 
 .sign-up {
@@ -69,24 +70,25 @@
     top: calc(50% - 12px);
 }
 
-.product-customers-pr {
-    color: #173a56;
-    text-align: start;
-    font: 800 18px/27px 'Poppins', sans-serif;
-    position: sticky;
-    left: 570px;
-    top: calc(50% - 15px);
-    width: 350px;
+.product-customers-pr,
+.product-customers-pr * {
+    box-sizing: border-box;
 }
 
-.logo {
+.product-customers-pr {
+    color: #173a56;
+    text-align: center;
+    font: 400 16px/39px 'Poppins', sans-serif;
     position: absolute;
-    inset: 0;
+    left: 833px;
+    top: calc(50% - 15px);
+    width: 350px;
+    word-spacing: 18px;
 }
 
 .productly {
     position: absolute;
-    left: 186.15px;
+    left: 147.15px;
     top: 25px;
     overflow: visible;
 }
@@ -94,96 +96,102 @@
 .bitmap {
     width: 31.17px;
     height: 32px;
+    transform: translate(110px, -1px);
     position: absolute;
-    left: 143.92px;
+    left: 1.92px;
     top: 22px;
 }
 
 .happy {
-    position: sticky;
-    top: 10px;
-    right: 10px;
+    transform: translate(-326px, 26px);
+    position: absolute;
+    top: 115px;
     bottom: 0;
-    left: 675px;
+    left: 1389px;
 }
 
 .Oval {
-    position: sticky;
-    top: 10px;
+    transform: translate(612px, -5px);
+    position: relative;
+    top: 88px;
     right: 10px;
     bottom: 0;
-    left: 753px;
+    left: 495px;
 }
 
 .the-design-thinking,
 .the-design-thinking * {
     box-sizing: border-box;
 }
+
 .the-design-thinking {
     color: #2f281e;
     text-align: left;
     font: 700 44px/54px 'Poppins', sans-serif;
-    padding-top: 30px;
     position: absolute;
-    top: 170px;
-    left: 155px;
+    top: 200px;
+    left: 112px;
     width: 518px;
 }
 
-.tools-tutorials-de,
-.tools-tutorials-de * {
-    box-sizing: border-box;
-}
 .tools-tutorials-de {
     color: #544837;
     text-align: left;
     padding-left: 145px;
     font: 400 18px/28px 'Poppins', sans-serif;
     position: relative;
-    bottom: 215px;
-    left: 6px;
-    width: 600px;
+    bottom: 264px;
+    left: -39px;
+    width: 447px;
     height: 95px;
 }
+
 .triangle-copy-6 {
     border-radius: 0px;
     position: relative;
-    left: 370px;
+    left: 341px;
     transform: translate(-17px, 0.84px);
 }
+
 .watch-the-video,
 .watch-the-video * {
     box-sizing: border-box;
 }
+
 .watch-the-video {
     color: #ff9900;
-    left: 505px;
     text-align: left;
-    font: 600 16px 'Poppins', sans-serif;
+    font: 600 20px 'Poppins', sans-serif;
     text-decoration: underline;
     position: relative;
+    left: 344px;
     bottom: 27px;
-    left: 377px;
 }
+
 .button4 {
+    background: #ff9900;
+    border-radius: 4px;
     width: 175px;
     height: 53px;
     position: relative;
-    bottom: 62px;
-    left: 151px;
-    overflow: hidden;
+    top: -60px;
+    right: 0;
+    left: 105px;
 }
-.watch-the-video, .watch-the-video * {
+
+.watch-the-video,
+.watch-the-video * {
     box-sizing: border-box;
-    }
-    .watch-the-video {
+}
+
+.watch-the-video {
     color: #ff9900;
     text-align: left;
     font: 600 16px 'Poppins', sans-serif;
     text-decoration: underline;
     position: relative;
-    }
-    
+}
+
 .rectangle4 {
     background: #ff9900;
     border-radius: 4px;
@@ -193,6 +201,7 @@
     left: 0px;
     top: 0px;
 }
+
 .get-started {
     color: #ffffff;
     text-align: left;
@@ -200,4 +209,279 @@
     position: absolute;
     left: 41px;
     top: calc(50% - 11.5px);
+}
+
+._03-feature,
+._03-feature * {
+    box-sizing: border-box;
+}
+
+._03-feature {
+    width: 2211px;
+    height: 543px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button {
+    width: 175px;
+    height: 53px;
+    position: absolute;
+    left: 37%;
+    top: 400px;
+    overflow: hidden;
+}
+
+.rectangle2 {
+    background: #ff9900;
+    border-radius: 4px;
+    width: 175px;
+    height: 53px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.sign-up-now {
+    color: #ffffff;
+    text-align: left;
+    font: 700 16px 'Poppins', sans-serif;
+    position: absolute;
+    left: 34px;
+    top: calc(50% - 11.5px);
+}
+
+
+.icon {
+    width: 51px;
+    height: 50px;
+    position: absolute;
+    left: 228px;
+    top: 162px;
+    overflow: hidden;
+}
+
+.icon-bd {
+    background: #7752be;
+    border-radius: 19px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.a {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'FontAwesome', sans-serif;
+    position: absolute;
+    left: 19px;
+    top: calc(50% - 8px);
+}
+
+.text1 {
+    width: 240px;
+    height: 98px;
+    position: absolute;
+    left: 231px;
+    top: 242px;
+    overflow: hidden;
+}
+
+.while-most-people-en {
+    color: #544837;
+    text-align: left;
+    font: 500 16px/26px 'Poppins', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 46px;
+    width: 240px;
+}
+
+.first-click-tests {
+    color: #2f281e;
+    text-align: left;
+    font: 600 22px 'Poppins', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: calc(50% - 49px);
+}
+
+.icon2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 664px;
+    top: 162px;
+    overflow: hidden;
+}
+
+.icon-bd2 {
+    background: #fab005;
+    border-radius: 19px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.b {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'FontAwesome', sans-serif;
+    position: absolute;
+    left: 16px;
+    top: calc(50% - 8px);
+}
+
+.text2 {
+    width: 240px;
+    height: 98px;
+    position: absolute;
+    left: 665px;
+    top: 242px;
+    overflow: hidden;
+}
+
+.sports-betting-lott {
+    color: #544837;
+    text-align: left;
+    font: 500 16px/26px 'Poppins', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 46px;
+    width: 240px;
+}
+
+.design-surveys {
+    color: #2f281e;
+    text-align: left;
+    font: 600 22px 'Poppins', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: calc(50% - 49px);
+}
+
+.icon3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 1051px;
+    top: 162px;
+    overflow: hidden;
+}
+
+.icon-bd3 {
+    background: #f03e3d;
+    border-radius: 19px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.c {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'FontAwesome', sans-serif;
+    position: absolute;
+    left: 17px;
+    top: calc(50% - 8px);
+}
+
+.text3 {
+    width: 240px;
+    height: 98px;
+    position: absolute;
+    left: 1055px;
+    top: 242px;
+    overflow: hidden;
+}
+
+.the-myspace-page-def {
+    color: #544837;
+    text-align: left;
+    font: 500 16px/26px 'Poppins', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 46px;
+    width: 240px;
+}
+
+.preference-tests {
+    color: #2f281e;
+    text-align: left;
+    font: 600 22px 'Poppins', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: calc(50% - 49px);
+}
+
+.icon4 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 1486px;
+    top: 162px;
+    overflow: hidden;
+}
+
+.icon-bd4 {
+    background: #4dadf7;
+    border-radius: 19px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.d {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'FontAwesome', sans-serif;
+    position: absolute;
+    left: 18px;
+    top: calc(50% - 8px);
+}
+
+.text4 {
+    width: 240px;
+    height: 124px;
+    position: absolute;
+    left: 1422px;
+    top: 242px;
+    overflow: hidden;
+}
+
+.personal-choices-and {
+    color: #544837;
+    text-align: left;
+    font: 500 16px/26px 'Poppins', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 46px;
+    width: 240px;
+}
+
+.five-second-tests {
+    color: #2f281e;
+    text-align: left;
+    font: 600 22px 'Poppins', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: calc(50% - 62px);
+}
+
+.we-design-tools-to-u {
+    color: #2f281e;
+    text-align: center;
+    font: 700 36px 'Poppins', sans-serif;
+    position: absolute;
+    left: 619px;
+    top: calc(50% - 271.5px);
+    width: 539px;
 }
